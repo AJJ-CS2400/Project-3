@@ -63,21 +63,20 @@ public class BinaryNodeTest
     public void testGetNumberOfNodes_binaryNodeMethod()
     {
         // Arrange
-            BinaryTree<String> aTree = new BinaryTree<>();
             // Leaves
-            BinaryTree<String> dTree = new BinaryTree<>("D");
-            BinaryTree<String> eTree = new BinaryTree<>("E");
-            BinaryTree<String> gTree = new BinaryTree<>("G");
+            BinaryNode<String> dNode = new BinaryNode<>("D");
+            BinaryNode<String> eNode = new BinaryNode<>("E");
+            BinaryNode<String> gNode = new BinaryNode<>("G");
 
             // Subtrees:
-            BinaryTree<String> fTree = new BinaryTree<>("F", null, gTree);
-            BinaryTree<String> bTree = new BinaryTree<>("B", dTree, eTree);
-            BinaryTree<String> cTree = new BinaryTree<>("C", fTree, null);
+            BinaryNode<String> fNode = new BinaryNode<>("F", null, gNode);
+            BinaryNode<String> bNode = new BinaryNode<>("B", dNode, eNode);
+            BinaryNode<String> cNode = new BinaryNode<>("C", fNode, null);
 
-            aTree.setTree("A", bTree, cTree);
+            BinaryNode<String> aNode = new BinaryNode<>("A", bNode, cNode);
 
         // Act
-            int actual = aTree.getNumberOfNodes_callBinaryNodeMethod();
+            int actual = aNode.getNumberOfNodes_binaryNodeMethod();
 
         // Assert
             Assert.assertEquals(7, actual);
