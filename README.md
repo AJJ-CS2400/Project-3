@@ -1,16 +1,15 @@
 ## Contributions
 
 ### Justin Ha
- - JUnit test cases
- - Task 1: postorderTraverse_binaryNodeMethod()
- - Task 2: getHeight_callBinaryNodeMethod()
+- JUnit test cases 
+- Task 2: getHeight_callBinaryNodeMethod()
 
 ### Alondra Marin
-- Task 3: getNumberOfNodes()
-- Task 3: getNumberOfNodes(BinaryNode<T> node)
+- Task 3
 
 ### Jailyn Rivera
-- Task 4: createTree2(BinaryTree<String> tree)
+- Task 1
+- Task 4
 
 ## Links
 
