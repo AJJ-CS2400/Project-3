@@ -2,7 +2,7 @@
 
 ### Justin Ha
 - JUnit test cases 
-- Task 2: getHeight_callBinaryNodeMethod()
+- Task 2
 
 ### Alondra Marin
 - Task 3
